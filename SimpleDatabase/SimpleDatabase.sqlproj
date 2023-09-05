@@ -68,5 +68,6 @@
     <Build Include="dbo\Tables\Employee.sql" />
     <Build Include="dbo\Views\vwDepartment.sql" />
     <Build Include="dbo\Stored Procedures\spGetEmployeebyCode.sql" />
+    <Build Include="dbo\Views\vwEmployee.sql" />
   </ItemGroup>
 </Project>
