@@ -1,11 +1,13 @@
-﻿CREATE VIEW vwEmployee
+﻿
+CREATE VIEW [dbo].[vwEmployee]
 AS
-SELECT e.Id,
-       e.FirstName,
+SELECT e.FirstName,
        e.MiddleName,
        e.LastName,
        e.Address,
-       e.DepartmentId,
        e.EmployeeCode,
-       e.Age
-FROM dbo.Employee e;
+       e.Age,
+       d.Name AS Department
+FROM dbo.Employee e
+    LEFT JOIN dbo.Department d
+        ON d.Id = e.DepartmentId;
