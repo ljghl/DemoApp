@@ -70,4 +70,9 @@
     <Build Include="dbo\Stored Procedures\spGetEmployeebyCode.sql" />
     <Build Include="dbo\Views\vwEmployee.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="dbo\batchFomattingSubfolderOutput.bat" />
+    <None Include="dbo\BatchFormattingRootOutput.bat" />
+    <None Include="dbo\SqlFormatter.exe" />
+  </ItemGroup>
 </Project>
