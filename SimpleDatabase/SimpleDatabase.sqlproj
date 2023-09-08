@@ -74,5 +74,8 @@
     <None Include="dbo\batchFomattingSubfolderOutput.bat" />
     <None Include="dbo\BatchFormattingRootOutput.bat" />
     <None Include="dbo\SqlFormatter.exe" />
+    <None Include="10.36.28.227SQLEXPRESS2016.publish.xml" />
+    <None Include="ToLocalSQLEXPRESS.scmp" />
+    <None Include="To10.36.28.227SQLEXPRESS2016.scmp" />
   </ItemGroup>
 </Project>

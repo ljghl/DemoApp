@@ -3,5 +3,6 @@
 CREATE VIEW [dbo].[vwDepartment]
 AS
 SELECT Code,
-       Name
+      [Description]
+      ,[Name]
 FROM dbo.Department;
